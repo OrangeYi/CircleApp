@@ -17,7 +17,7 @@ public class GeolocationPackage implements ReactPackage {
         modules.add(new GeolocationModule(reactContext)); // adding the module to package
         return modules;
     }
-    @Override
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
